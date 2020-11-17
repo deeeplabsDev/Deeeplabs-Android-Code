@@ -1,3 +1,182 @@
 <resources>
     <string name="app_name">Deeeplabs Android Code</string>
+    <!-- LoginActivity String XML -->
+    <string name="email_header">EMAIL ADDRESS</string>
+    <string name="password_header">PASSWORD</string>
+    <string name="email">Enter your email</string>
+    <string name="password">Enter your password</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="login_button">Log In</string>
+    <!-- End of Login String XML -->
+
+    <!-- HomeActivity String XML -->
+    <string name="dashboard">DASHBOARD</string>
+
+    <string name="logout_alert_text">Are you sure you want to logout?</string>
+    <string name="logout_alert_title">Warning</string>
+    <string name="positive_button">Yes</string>
+    <string name="negative_button">No</string>
+    <!-- End of HomeActivity String XML -->
+
+    <!-- DeliveryJobsAdapter Header String XML -->
+    <string name="home_welcome_message">Hi, Johny Mnemonic</string>
+    <string name="home_welcome_placeholder">Hi, %1$s</string>
+    <string name="home_menu_item_in">Item In</string>
+    <string name="home_menu_item_out">Item Out</string>
+    <string name="home_menu_item_return">Item List</string>
+    <string name="home_menu_stock_count">Stock Count</string>
+    <string name="home_menu_register_tag">Register Tag</string>
+    <string name="view_all_button">View All</string>
+    <string name="current_job_list">OUTGOING JOB LIST</string>
+    <!-- End of DeliveryJobsAdapter String XML -->
+
+    <!-- DeliveryJobsAdapter Item String XML -->
+    <string name="delivery_job_location">National University of Singapore</string>
+    <string name="delivery_job_location_sub">1 Delivery Road, Test Tower #10–10, Singapore 01…</string>
+    <string name="delivery_job_date">13–01–2020</string>
+    <!-- End of DeliveryJobsAdapter Item String XML -->
+
+    <!-- ItemInListActivity String XML -->
+    <string name="item_in_list_title">ITEM IN</string>
+    <string name="item_in_list_header">SELECT WAREHOUSE</string>
+    <!-- End of ItemInListActivity String XML -->
+
+    <!-- ItemInListAdapter String XML -->
+    <string name="item_warehouse">Warehouse Alpha</string>
+    <!-- End of ItemInListAdapter String XML -->
+
+    <!-- ItemInActivity String XML -->
+    <string name="item_in_title">CREATE INCOMING JOB</string>
+    <string name="item_out_title">CREATE OUTGOING JOB</string>
+    <string name="item_out_total_price">TOTAL OUTGOING VALUE:</string>
+    <string name="item_in_warehouse_name">WAREHOUSE ALPHA</string>
+    <string name="item_in_scan_rfid">Scan RFID</string>
+    <string name="item_in_scan_barcode">Scan Barcode</string>
+    <string name="item_in_stock_in">Create Job</string>
+    <string name="item_in_stop_scan">Stop Scan</string>
+    <string name="item_in_debug_mreader_init">Initiate reader fail</string>
+    <string name="item_in_epc_printout">EPC: %1$s\n TID: %2$s</string>
+    <string name="item_in_rfid_stop_scan">Stop scanning</string>
+    <!-- End of ItemInActivity String XML -->
+
+    <!-- ItemInAdapter String XML -->
+    <string name="item_in_edit">Edit</string>
+    <string name="item_in_undo_scan">Undo Scan</string>
+    <!-- End of ItemInAdapter String XML -->
+
+    <!-- ItemOutAdapter Header String XML -->
+    <string name="check_stock_text">Check Stock</string>
+    <string name="stock_has_checked">Stock Checked</string>
+    <!-- End of ItemOutAdapter Header String XML -->
+
+    <!-- ItemOutAdapter String XML -->
+    <string name="item_out_location_name">National University of Singapore</string>
+    <string name="item_out_location_sub">1 Delivery Road, Test Tower #10–10, Singapore 01…</string>
+    <string name="item_out_date">13–01–2020</string>
+    <string name="item_out_status">Prepared to Deliver</string>
+    <!-- End of ItemOutAdapter String XML -->
+
+    <!-- ItemOutListActivity String XML -->
+    <string name="item_out_list_title">ITEM OUT</string>
+    <string name="item_out_list_date_filter">Filter Date</string>
+    <!-- End of ItemOutListActivity String XML -->
+
+    <!-- OutgoingJobAdapter Header String XML -->
+    <string name="item_list_outgoing_job">ITEM LIST</string>
+    <string name="item_name_title_outgoing_job">ITEM NAME</string>
+    <string name="item_qty_title_outgoing_job">QTY (PCS)</string>
+    <string name="item_price_title_outgoing_job">PRICE</string>
+    <!-- End of OutgoingJobAdapter Header String XML -->
+
+    <!-- CountStockActivity String XML -->
+    <string name="count_stock_title">COUNT STOCK</string>
+    <!-- End of CountStockActivity String XML -->
+
+    <!-- Loading Dialog String XML -->
+    <string name="dialog_load_title">Please wait</string>
+    <string name="dialog_load_item_in_desc">Initiate reader</string>
+    <string name="dialog_fail_init">Initiate fail</string>
+    <!-- End of Loading Dialog String XML -->
+
+    <!-- CountStockAdapter String XML -->
+    <string name="count_stock_adapter_swipe_delete">Delete</string>
+    <string name="count_stock_adapter_item_name">Asus Zenfone 6</string>
+    <string name="count_stock_adapter_item_qty">12</string>
+    <string name="count_stock_adapter_item_sku">12AHS00001</string>
+    <string name="count_stock_adapter_submit_stock">Submit Stock Count Report</string>
+    <!-- End of CountStockAdapter String XML -->
+
+    <!-- ItemOutDetailActivity String XML -->
+    <string name="item_out_detail_title">ITEM OUT DETAIL</string>
+    <string name="item_out_detail_confirm_job">CONFIRM JOB</string>
+    <string name="item_out_detail_create_return_job">CONFIRM ON SITE</string>
+    <string name="item_out_detail_client_signature">Client Signature</string>
+    <string name="item_out_detail_client_acknowledge">Acknowledged by</string>
+    <string name="item_out_detail_return_note">Return notes</string>
+    <string name="item_out_detail_done">Done</string>
+    <string name="item_out_detail_confirm_create_return">Confirm On Site</string>
+    <string name="item_out_detail_clear_signature">Clear</string>
+
+    <string name="item_out_detail_supplier">Supplier</string>
+    <string name="item_out_detail_supplier_sub">Intense Suppliers</string>
+    <string name="item_out_detail_location">Receiving Address</string>
+    <string name="item_out_detail_location_sub">1 Delivery Road, Test Tower #10–10, Singapore 01…</string>
+    <string name="item_out_detail_date">13–01–2020</string>
+    <string name="item_out_detail_meetup_label">Meetup Point</string>
+    <string name="item_out_detail_meetup">Building D of NUS</string>
+    <string name="item_out_detail_poc_label">POC</string>
+    <string name="item_out_detail_poc">Mr. Budi</string>
+    <string name="item_out_detail_date_time_number_order">14–02–2020 \u00b7 03:00 PM \u00b7 #OUT12345</string>
+    <!-- End of ItemOutActivity String XML -->
+
+    <!-- IncomingJobDetailActivity String XML -->
+    <string name="incoming_job_detail_title">INCOMING JOB DETAIL</string>
+    <string name="incoming_job_detail_id_number">#OUT12345</string>
+    <string name="incoming_job_detail_postcode">Post Code</string>
+    <string name="incoming_job_detail_note">Please be careful</string>
+    <string name="incoming_job_detail_edit">Edit Job</string>
+    <!-- End of IncomingJobDetailActivity String XML -->
+
+    <!-- OutgoingJobDetailActivity String XML -->
+    <string name="outgoing_job_detail_title">OUTGOING JOB DETAIL</string>
+    <!-- End of OutgoingJobDetailActivity String XML -->
+
+    <!-- OutgoingJobAdapter String XML -->
+    <string name="item_name_outgoing_job">Macbook 13" - Accounting 1</string>
+    <string name="sku_outgoing_job">SKU:MC10021–01</string>
+    <string name="item_qty_outgoing_job">1</string>
+    <!-- End of OutgoingJobAdapter String XML -->
+
+    <!-- CreateIncomingJobActivity String XML -->
+    <string name="create_incoming_job_title">CREATE INCOMING JOB</string>
+    <string name="create_outgoing_job_title">CREATE OUTGOING JOB</string>
+    <string name="create_incoming_job_address">Enter delivery address here</string>
+    <string name="create_incoming_job_supplier">Enter supplier name here</string>
+    <string name="create_incoming_job_postcode">Enter delivery postcode here</string>
+    <string name="create_incoming_job_date_label">Date</string>
+    <string name="create_incoming_job_date">Select Date</string>
+    <string name="create_incoming_job_notes_label">Notes</string>
+    <string name="create_incoming_job_notes">Enter extra notes</string>
+    <string name="create_incoming_job_next">Choose Items</string>
+    <!-- End of CreateIncomingJobActivity String XML -->
+
+    <!-- EditIVStockActivity String XML -->
+    <string name="edit_iv_stock_title">EDIT ITEM VARIANT STOCK</string>
+    <string name="edit_iv_stock_item_name_label">Item Name</string>
+    <string name="edit_iv_stock_item_name">Baju Kemeja Batik XX</string>
+    <string name="edit_iv_stock_stock">Pieces</string>
+    <string name="edit_iv_stock_price">Price</string>
+    <string name="edit_iv_stock_edit_button">Confirm Stock Count</string>
+    <string name="edit_iv_stock_edit_outgoing_button">Confirm Outgoing Item</string>
+    <string name="edit_iv_stock_edit_incoming_button">Confirm Incoming Item</string>
+    <!-- End of EditIVStockActivity String XML -->
+
+    <!-- EditIncomingJobActivity String XML -->
+    <string name="edit_incoming_job_title">EDIT INCOMING JOB</string>
+    <string name="edit_outgoing_job_title">EDIT OUTGOING JOB</string>
+    <string name="edit_incoming_job_update">Update Job</string>
+    <!-- End of EditIncomingJobActivity String XML -->
+
+    <!-- [ActivityName] String XML -->
+    <!-- End of [ActivityName] String XML -->
 </resources>
