@@ -9,17 +9,18 @@ import android.widget.ImageView
 import com.deeeplabs.deeeplabsandroidcode.R
 import kotlinx.android.synthetic.main.activity_login.*
 
-class LoginActivity : AppCompatActivity() {
+open class LoginActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
     }
 
-    fun setImageSourceOnLogo(drawable:Drawable){
+    open fun setImageSourceOnLogo(drawable:Drawable){
         loginLogoImageView.setImageDrawable(drawable)
     }
 
-    fun getEmail():String{
+    open fun getEmail():String{
         return emailLoginEditText.text.toString()
     }
 
@@ -32,3 +33,4 @@ class LoginActivity : AppCompatActivity() {
     }
 
 }
+
