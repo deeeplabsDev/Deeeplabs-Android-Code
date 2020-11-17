@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import com.deeeplabs.deeeplabsandroidcode.R
+import com.deeeplabs.deeeplabsandroidcode.singleton.InterfaceManager
 import kotlinx.android.synthetic.main.activity_login.*
 
 open class LoginActivity : AppCompatActivity() {
@@ -16,11 +17,11 @@ open class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
     }
 
-    open fun setImageSourceOnLogo(drawable:Drawable){
+    fun setImageSourceOnLogo(drawable:Drawable){
         loginLogoImageView.setImageDrawable(drawable)
     }
 
-    open fun getEmail():String{
+    fun getEmail():String{
         return emailLoginEditText.text.toString()
     }
 
@@ -30,6 +31,22 @@ open class LoginActivity : AppCompatActivity() {
 
     fun getSubmitButton(): Button {
         return loginButton
+    }
+
+    fun getErrorWhenTryToSubmit():String?{
+        if(getEmail().isNullOrBlank()){
+            return "Please insert your email"
+        }
+
+        if(getPassword().isNullOrBlank()){
+            return "Please insert your password"
+        }
+
+        if(!InterfaceManager.sharedInstance().isValidEmailAddress(getEmail())){
+            return "Please insert correct email"
+        }
+
+        return null
     }
 
 }
